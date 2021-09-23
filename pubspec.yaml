@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
   http_client_helper: ^2.0.2
   path: ^1.7.0
-  path_provider: ^2.0.1
+  path_provider:
+    git:
+      url: https://github.com/pangoo-reuse/plugins.git
+      path: packages/path_provider/path_provider
 
 
 
